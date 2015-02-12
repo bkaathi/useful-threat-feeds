@@ -1,4 +1,4 @@
-get http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+wget http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
 unzip top-1m.csv.zip
 wget http://rules.emergingthreats.net/blockrules/compromised-ips.txt
 wget http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt
